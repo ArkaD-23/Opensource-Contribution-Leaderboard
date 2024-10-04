@@ -95,7 +95,7 @@ const server = http
             break
         case '/login':
             if (req.method === 'GET') {
-                res.end('Permission denied\n')
+                res.end('Permission not found\n')
                 return
             }
 
@@ -151,7 +151,7 @@ const server = http
             break
         case '/getRepositories':
             if (req.method !== 'GET') {
-                res.end('Permission denied\n')
+                res.end('Permission not found\n')
                 return
             }
             var { organization, includedRepositories } = jsonfile.readFileSync(

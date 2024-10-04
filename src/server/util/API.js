@@ -11,7 +11,7 @@ async function get(url, _authToken) {
             headers: {
                 Accept: 'application/vnd.github.v3+json',
                 'User-Agent': 'GSoC-Contribution-Leaderboard',
-                Authorization: 'token ' + Config.authToken,
+                Authorization: 'token' + Config.authToken,
             },
         })
         return new Promise((resolve) => {

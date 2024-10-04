@@ -2,6 +2,7 @@ import './style/style.css'
 import './style/bootstrap.css'
 import axios from 'axios'
 import moment from 'moment'
+// @ts-ignore
 import { io } from 'socket.io-client'
 
 function refreshTable(newData) {

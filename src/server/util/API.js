@@ -119,16 +119,16 @@ async function getMergedPRsPoints(MergedPRsURL) {
     let points = 0
     if(labels) {
         labels.forEach((label) => {
-            if(label == "easy")
+            if(label == 'Easy')
                 points += 5
-            else if(label == "medium")
+            else if(label == 'Medium')
                 points += 10
-            else if(label == "hard")
+            else if(label == 'Hard')
                 points +=20
         })
     }
 
-    console.log("points = ",points)
+    console.log('points =',points)
     return points
 }
 

@@ -14,7 +14,7 @@ function refreshTable(newData) {
         contributors.push({
             username,
             mergedPRsNumber: data[username].mergedPRsNumber,
-            openPRsNumber: data[username].openPRsNumber,
+            mergedPRsPoints: data[username].mergedPRsPoints,
             issuesNumber: data[username].issuesNumber
         })
     })
@@ -30,20 +30,20 @@ function refreshTable(newData) {
         const urlParams = new URLSearchParams(queryString)
         switch (urlParams.get('sort')) { //assigns according to parameter-sort (default 'm')
         case 'p':
-            pref1 = 'openPRsNumber'
-            pref2 = 'mergedPRsNumber'
-            pref3 = 'issuesNumber'
+            pref1 = 'mergedPRsNumber'
+            pref2 = 'mergedPRsPoints'
+            pref3 = 'openPRsNumber'
             break
         case 'i':
-            pref1 = 'issuesNumber'
-            pref2 = 'mergedPRsNumber'
-            pref3 = 'openPRsNumber'
+            pref1 = 'openPRsNumber'
+            pref2 = 'mergedPRsPoints'
+            pref3 = 'mergedPRsNumber'
             break
 
         default:
             pref1 = 'mergedPRsNumber'
-            pref2 = 'openPRsNumber'
-            pref3 = 'issuesNumber'
+            pref2 = 'mergedPRsPoints'
+            pref3 = 'openPRsNumber'
             break
         }
         if (a[pref1] < b[pref1]) {
@@ -97,16 +97,16 @@ function refreshTable(newData) {
         // empty td tag
         tr.appendChild(document.createElement('td'))
 
-        // Open PRs
-        const tdOpenPRs = document.createElement('td')
-        const openPRs = document.createElement('a')
-        openPRs.href = data[contributor.username].openPRsLink
-        openPRs.innerText = data[contributor.username].openPRsNumber
-        if (data[contributor.username].openPRsNumber === 0) {
-            openPRs.className = 'inactiveLink'
+        // Merged PR Points
+        const tdMergedPRsPoints = document.createElement('td')
+        const mergedPRsPoints = document.createElement('a')
+        mergedPRsPoints.href = data[contributor.username].mergedPRsPointsLink
+        mergedPRsPoints.innerText = data[contributor.username].mergedPRsPoints
+        if (data[contributor.username].mergedPRsPoints === 0) {
+            mergedPRsPoints.className = 'inactiveLink'
         }
-        tdOpenPRs.appendChild(openPRs)
-        tr.appendChild(tdOpenPRs)
+        tdMergedPRsPoints.appendChild(mergedPRsPoints)
+        tr.appendChild(tdMergedPRsPoints)
 
         // Merged PRs
         const tdMergedPRs = document.createElement('td')
@@ -119,20 +119,20 @@ function refreshTable(newData) {
         tdMergedPRs.appendChild(mergedPRs)
         tr.appendChild(tdMergedPRs)
 
-        // Issues
-        const tdIssues = document.createElement('td')
-        const issues = document.createElement('a')
-        issues.href = data[contributor.username].issuesLink
-        issues.innerText = data[contributor.username].issuesNumber
+        // Open PRs
+        const tdOpenPRsNumber = document.createElement('td')
+        const openPRs = document.createElement('a')
+        openPRs.href = data[contributor.username].issuesLink
+        openPRs.innerText = data[contributor.username].openPRsNumber
         if (data[contributor.username].issuesNumber === 0) {
-            issues.className = 'inactiveLink'
+            openPRs.className = 'inactiveLink'
         }
-        tdIssues.appendChild(issues)
-        tr.appendChild(tdIssues)
+        tdOpenPRsNumber.appendChild(openPRs)
+        tr.appendChild(tdOpenPRsNumber)
 
         table.appendChild(tr)
 
-        allOpenPRs = allOpenPRs + data[contributor.username].openPRsNumber
+        allOpenPRs = allOpenPRs + data[contributor.username].mergedPRsPoints
         allMergedPRs = allMergedPRs + data[contributor.username].mergedPRsNumber
         allIssues = allIssues + data[contributor.username].issuesNumber
     })

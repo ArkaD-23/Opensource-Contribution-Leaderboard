@@ -57,15 +57,6 @@ async function checkRateLimit() {
     }
 }
 
-async function fetchPullRequests(organization, repo) {
-    const res = await get(
-        APIHOST + `/repos/${organization}/${repo}/pulls`
-    )
-    if(res !== undefined) {
-        return res[0]
-    }
-}
-
 async function fetchRepositories(organization, page) {
     const res = await get(
         APIHOST + `/orgs/${organization}/repos?per_page=100&page=${page}`
@@ -115,10 +106,35 @@ async function getOpenPRsNumber(OpenPRsURL) {
     }
 }
 
+async function getMergedPRsPoints(MergedPRsURL) {
+    const res = await get(APIHOST + MergedPRsURL)
+    let labels = []
+    
+    if (res.data.items[0]?.labels) {
+        res.data.items[0].labels.forEach((label) => {
+            labels.push(label.name)
+        })
+    }
+     
+    let points = 0
+    if(labels) {
+        labels.forEach((label) => {
+            if(label == "easy")
+                points += 5
+            else if(label == "medium")
+                points += 10
+            else if(label == "hard")
+                points +=20
+        })
+    }
+
+    console.log("points = ",points)
+    return points
+}
+
+
 async function getMergedPRsNumber(MergedPRsURL) {
     const res = await get(APIHOST + MergedPRsURL)
-    console.log('data: ', res.data)
-    console.log('data as string: ', JSON.stringify(res.data.items[0]?.labels[0].name, null, 2))  
     if (res !== undefined) {
         return res.data.total_count
     } else {
@@ -167,6 +183,7 @@ async function getContributorInfo(
     const openPRsNumber = await getOpenPRsNumber(OpenPRsURL)
     const mergedPRsNumber = await getMergedPRsNumber(MergedPRsURL)
     const issuesNumber = await getIssuesNumber(IssuesURL)
+    const mergedPRsPoints = await getMergedPRsPoints(MergedPRsURL)
 
     return {
         home,
@@ -177,6 +194,7 @@ async function getContributorInfo(
         mergedPRsLink,
         issuesNumber,
         issuesLink,
+        mergedPRsPoints
     }
 }
 
@@ -197,26 +215,25 @@ async function getStats(data) {
     }
 }
 
-async function getRanks(data, parameter = 'mergedprs') {
+async function getRanks(data, parameter = 'mergedprspoints') {
     var pref1, pref2, pref3 // preference is specified here
     switch (
         parameter //assigns according to parameter-sort (default 'mergedprs')
     ) {
     case 'openprs':
         pref1 = 'openPRsNumber'
-        pref2 = 'mergedPRsNumber'
-        pref3 = 'issuesNumber'
+        pref2 = 'mergedPRsPoints'
+        pref3 = 'mergedPRsNumber'
         break
-    case 'issues':
-        pref1 = 'issuesNumber'
-        pref2 = 'mergedPRsNumber'
+    case 'mergedprs':
+        pref1 = 'mergedPRsNumber'
+        pref2 = 'mergedPRsPoints'
         pref3 = 'openPRsNumber'
         break
-
     default:
-        pref1 = 'mergedPRsNumber'
-        pref2 = 'openPRsNumber'
-        pref3 = 'issuesNumber'
+        pref1 = 'mergedPRsPoints'
+        pref2 = 'mergedPRsNumber'
+        pref3 = 'openPRsNumber'
         break
     }
 

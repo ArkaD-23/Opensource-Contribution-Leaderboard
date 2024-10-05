@@ -11,6 +11,7 @@ async function get(url, _authToken) {
             headers: {
                 Accept: 'application/vnd.github.v3+json',
                 'User-Agent': 'GSoC-Contribution-Leaderboard',
+                'Content-Type': 'application/json',
                 Authorization: 'token' + Config.authToken,
             },
         })
@@ -53,6 +54,15 @@ async function checkRateLimit() {
         return res.data.avatar_url
     } else {
         return {}
+    }
+}
+
+async function fetchPullRequests(organization, repo) {
+    const res = await get(
+        APIHOST + `/repos/${organization}/${repo}/pulls`
+    )
+    if(res !== undefined) {
+        return res[0]
     }
 }
 
@@ -107,7 +117,8 @@ async function getOpenPRsNumber(OpenPRsURL) {
 
 async function getMergedPRsNumber(MergedPRsURL) {
     const res = await get(APIHOST + MergedPRsURL)
-
+    console.log("data: ", res.data);
+    console.log("data as string: " + JSON.stringify(res.data.items[0]?.labels[0].name, null, 2));  
     if (res !== undefined) {
         return res.data.total_count
     } else {

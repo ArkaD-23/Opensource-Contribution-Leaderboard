@@ -45,6 +45,7 @@ if (process.env.NODE_ENV !== 'development') {
             message: 'Access Forbidden',
         })
     })
+    app.use(express.json())
     app.use('/socket.io', proxy(websocketProxyOption))
     app.use('/', express.static(path.resolve(__dirname, '..')))
     app.listen(8080)

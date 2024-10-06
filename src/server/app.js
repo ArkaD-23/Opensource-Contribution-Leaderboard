@@ -48,7 +48,7 @@ if (process.env.NODE_ENV !== 'development') {
     app.use(express.json())
     app.use('/socket.io', proxy(websocketProxyOption))
     app.use('/', express.static(path.resolve(__dirname, '..')))
-    app.listen(8080)
+    app.listen(3000)
 }
 
 if (!fs.existsSync(admindataPath)) {

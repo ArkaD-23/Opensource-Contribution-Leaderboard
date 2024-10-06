@@ -17,12 +17,12 @@ const logPath = '../assets/data/log.json'
 const port = jsonfile.readFileSync(configPath).serverPort
 const configBackupPath = '../../configBackup.json'
 const proxyOption = {
-    target: 'https://gsoc-heat-leaderboard.onrender.com' + '/',
+    target: 'http://localhost:' + port + '/',
     pathRewrite: { '^/api': '' },
     changeOrigin: true,
 }
 const websocketProxyOption = {
-    target: 'https://gsoc-heat-leaderboard.onrender.com' + '/',
+    target: 'http://localhost:' + port + '/',
     changeOrigin: true,
 }
 

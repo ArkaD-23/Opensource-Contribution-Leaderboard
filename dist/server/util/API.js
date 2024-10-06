@@ -110,7 +110,7 @@ async function getMergedPRsPoints(MergedPRsURL) {
     const res = await get(APIHOST + MergedPRsURL)
     let labels = []
     
-    if (res.data.items[0]?.labels) {
+    if (res.data && res.data.items && res.data.items[0] && res.data.items[0].labels) {
         res.data.items[0].labels.forEach((label) => {
             labels.push(label.name)
         })

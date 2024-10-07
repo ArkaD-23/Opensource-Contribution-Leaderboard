@@ -22,7 +22,7 @@ const proxyOption = {
     changeOrigin: true,
 }
 const websocketProxyOption = {
-    target: 'https://gsoc-heat-leaderboard.onrender.com' + port + '/',
+    target: 'https://gsoc-heat-leaderboard.onrender.com:' + port + '/',
     changeOrigin: true,
 }
 

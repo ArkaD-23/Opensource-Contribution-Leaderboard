@@ -1,7 +1,7 @@
 {
   "organization": "test-org-for-leaderboard",
-  "organizationHomepage": "https://github.com/lugnitdgp",
-  "organizationGithubUrl": "https://nitdgplug.org/",
+  "organizationHomepage": "https://nitdgplug.org/",
+  "organizationGithubUrl": "https://github.com/lugnitdgp",
   "authToken": "",
   "adminPassword": "123456",
   "delay": "20",
@@ -12,6 +12,5 @@
   ],
   "startDate": "2024-09-03",
   "includedRepositories": [
-    "testrepo"
   ]
 }

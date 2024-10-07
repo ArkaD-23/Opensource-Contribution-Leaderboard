@@ -17,12 +17,12 @@ const logPath = '../assets/data/log.json'
 const port = jsonfile.readFileSync(configPath).serverPort
 const configBackupPath = '../../configBackup.json'
 const proxyOption = {
-    target: 'http://localhost:' + process.env.PORT + '/',
+    target: 'http://localhost:' + port + '/',
     pathRewrite: { '^/api': '' },
     changeOrigin: true,
 }
 const websocketProxyOption = {
-    target: 'https//localhost:' + process.env.PORT + '/',
+    target: 'https//localhost:' + port + '/',
     changeOrigin: true,
 }
 

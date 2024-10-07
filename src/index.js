@@ -175,3 +175,4 @@ const socket = io()
 socket.on('refresh table', (data) => {
     refreshTable(data)
 })
+

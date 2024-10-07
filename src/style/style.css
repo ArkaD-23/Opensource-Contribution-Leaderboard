@@ -57,6 +57,7 @@ td span {
   white-space: nowrap;
 }
 .navbar-brand > img {
+  filter: none;
   margin-right: 5px;
 }
 .navbar-brand:hover {

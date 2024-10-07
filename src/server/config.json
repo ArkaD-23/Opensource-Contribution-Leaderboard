@@ -1,13 +1,14 @@
 {
   "organization": "test-org-for-leaderboard",
-  "organizationHomepage": "https://github.com/test-org-for-leaderboard",
-  "organizationGithubUrl": "https://github.com/test-org-for-leaderboard",
+  "organizationHomepage": "https://github.com/lugnitdgp",
+  "organizationGithubUrl": "https://nitdgplug.org/",
   "authToken": "",
   "adminPassword": "123456",
   "delay": "20",
   "serverPort": "8080",
   "contributors": [
-    "Ankit-Roy-CSE"
+    "Ankit-Roy-CSE",
+    "ArkaD-23"
   ],
   "startDate": "2024-09-03",
   "includedRepositories": [

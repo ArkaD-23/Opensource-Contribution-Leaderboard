@@ -17,12 +17,12 @@ const logPath = '../assets/data/log.json'
 const port = jsonfile.readFileSync(configPath).serverPort
 const configBackupPath = '../../configBackup.json'
 const proxyOption = {
-    target: 'https://gsoc-heat-leaderboard.onrender.com:' + port + '/',
+    target: 'https://gsoc-heat-leaderboard.onrender.com:' + '/',
     pathRewrite: { '^/api': '' },
     changeOrigin: true,
 }
 const websocketProxyOption = {
-    target: 'https://gsoc-heat-leaderboard.onrender.com:' + port + '/',
+    target: 'https://gsoc-heat-leaderboard.onrender.com:' + '/',
     changeOrigin: true,
 }
 
@@ -48,7 +48,7 @@ if (process.env.NODE_ENV !== 'development') {
     app.use(express.json())
     app.use('/socket.io', proxy(websocketProxyOption))
     app.use('/', express.static(path.resolve(__dirname, '..')))
-    app.listen(8080)
+    app.listen(process.env.PORT || 8080)
 }
 
 if (!fs.existsSync(admindataPath)) {

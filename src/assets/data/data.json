@@ -1,3 +1,13 @@
 {
- 
+  "Ankit-Roy-CSE": {
+    "home": "https://github.com/Ankit-Roy-CSE",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/77993581?v=4",
+    "openPRsNumber": 0,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:Ankit-Roy-CSE+is:open+created:>=2024-09-03+repo:test-org-for-leaderboard/testrepo+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:Ankit-Roy-CSE+is:merged+created:>=2024-09-03+repo:test-org-for-leaderboard/testrepo+-label:chore",
+    "issuesNumber": 1,
+    "issuesLink": "https://github.com/search?q=type:issue+author:Ankit-Roy-CSE+created:>=2024-09-03+repo:test-org-for-leaderboard/testrepo+-label:chore",
+    "mergedPRsPoints": 0
+  }
 }

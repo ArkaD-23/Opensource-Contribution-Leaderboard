@@ -22,7 +22,7 @@ const proxyOption = {
     changeOrigin: true,
 }
 const websocketProxyOption = {
-    target: 'https//localhost:' + port + '/',
+    target: 'http://localhost:' + port + '/',
     changeOrigin: true,
 }
 

@@ -2,13 +2,12 @@
   "organization": "test-org-for-leaderboard",
   "organizationHomepage": "https://github.com/test-org-for-leaderboard",
   "organizationGithubUrl": "https://github.com/test-org-for-leaderboard",
-  "authToken": "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",
+  "authToken": "",
   "adminPassword": "123456",
   "delay": "20",
   "serverPort": "8080",
   "contributors": [
-    "Ankit-Roy-CSE",
-    "ArkaD-23"
+    "Ankit-Roy-CSE"
   ],
   "startDate": "2024-09-03",
   "includedRepositories": [

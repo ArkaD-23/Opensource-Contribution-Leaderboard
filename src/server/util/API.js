@@ -12,7 +12,7 @@ async function get(url, _authToken) {
                 Accept: 'application/vnd.github.v3+json',
                 'User-Agent': 'GSoC-Contribution-Leaderboard',
                 'Content-Type': 'application/json',
-                Authorization: 'token' + process.env.GITHUB_TOKEN,
+                Authorization: 'token' + Config.authToken,
             },
         })
         return new Promise((resolve) => {

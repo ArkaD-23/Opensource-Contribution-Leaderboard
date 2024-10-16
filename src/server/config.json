@@ -1,21 +1,17 @@
 {
   "organization": "test-org-for-leaderboard",
   "organizationHomepage": "https://nitdgplug.org/",
-  "organizationGithubUrl": "https://github.com/lugnitdgp",
-  "authToken": "",
+  "organizationGithubUrl": "https://github.com/test-org-for-leaderboard",
+  "authToken": "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",
   "adminPassword": "123456",
   "delay": "20",
   "serverPort": "8080",
   "contributors": [
     "skndash96",
-    "BennyPerumallla"
+    "BennyPerumalla"
   ],
   "startDate": "2024-09-03",
   "includedRepositories": [
-    "Chatopia_GSOC_Heat_24",
-    "GSoC_Slack-Clone",
-    "SQLifyHUB",
-    "Aerocart",
-    "GSoc_Docify"
+    
   ]
 }

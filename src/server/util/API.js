@@ -124,7 +124,7 @@ async function getMergedPRsPoints(MergedPRsURL) {
             else if(label == 'Medium')
                 points += 10
             else if(label == 'Hard')
-                points +=20
+                points += 15
         })
     }
 

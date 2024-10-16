@@ -7,10 +7,15 @@
   "delay": "20",
   "serverPort": "8080",
   "contributors": [
-    "Ankit-Roy-CSE",
-    "ArkaD-23"
+    "skndash96",
+    "BennyPerumallla"
   ],
   "startDate": "2024-09-03",
   "includedRepositories": [
+    "Chatopia_GSOC_Heat_24",
+    "GSoC_Slack-Clone",
+    "SQLifyHUB",
+    "Aerocart",
+    "GSoc_Docify"
   ]
 }

@@ -156,8 +156,7 @@ axios.get('/api/config')
         const { organization, organizationGithubUrl, organizationHomepage } = res.data
         const footer = document.querySelector('.footer .text-muted')
         footer.innerHTML = `
-        <a href="${organizationHomepage}" target="_blank" rel="noopener noreferrer">${organizationHomepage}</a> |
-        <a href="${organizationGithubUrl}" target="_blank" rel="noopener noreferrer">Github(${organization})</a>`.trim()
+        <a href="${organizationHomepage}" target="_blank" rel="noopener noreferrer">${organizationHomepage}</a>`.trim()
     })
 
 axios.get('/api/log')

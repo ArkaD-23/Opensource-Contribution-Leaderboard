@@ -1,8 +1,8 @@
 {
   "organization": "test-org-for-leaderboard",
   "organizationHomepage": "https://nitdgplug.org/",
-  "organizationGithubUrl": "https://github.com/test-org-for-leaderboard",
-  "authToken": "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",
+  "organizationGithubUrl": "https://github.com/lugnitdgp",
+  "authToken": "",
   "adminPassword": "123456",
   "delay": "20",
   "serverPort": "8080",

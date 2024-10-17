@@ -20,5 +20,38 @@
     "issuesNumber": 1,
     "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
     "mergedPRsPoints": 5
+  },
+  "Subhadip006": {
+    "home": "https://github.com/Subhadip006",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/171440257?v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "SuvineetSingh": {
+    "home": "https://github.com/SuvineetSingh",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/47290250?v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "harshvyas-22": {
+    "home": "https://github.com/harshvyas-22",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/118657807?v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
   }
 }

@@ -2,24 +2,57 @@
   "skndash96": {
     "home": "https://github.com/skndash96",
     "avatarUrl": "https://avatars.githubusercontent.com/u/78152517?v=4",
-    "openPRsNumber": 1,
+    "openPRsNumber": 0,
     "openPRsLink": "https://github.com/search?q=type:pr+author:skndash96+is:open+created:>=2024-09-03+-label:chore",
-    "mergedPRsNumber": 3,
+    "mergedPRsNumber": 5,
     "mergedPRsLink": "https://github.com/search?q=type:pr+author:skndash96+is:merged+created:>=2024-09-03+-label:chore",
     "issuesNumber": 0,
     "issuesLink": "https://github.com/search?q=type:issue+author:skndash96+created:>=2024-09-03+-label:chore",
-    "mergedPRsPoints": 15
+    "mergedPRsPoints": 45
   },
   "BennyPerumalla": {
     "home": "https://github.com/BennyPerumalla",
     "avatarUrl": "https://avatars.githubusercontent.com/u/124452105?v=4",
-    "openPRsNumber": 0,
+    "openPRsNumber": 2,
     "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
-    "mergedPRsNumber": 1,
+    "mergedPRsNumber": 4,
     "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
     "issuesNumber": 0,
     "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
-    "mergedPRsPoints": 5
+    "mergedPRsPoints": 20
+  },
+  "Divendra2006": {
+    "home": "https://github.com/Divendra2006",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/158255309?v=4",
+    "openPRsNumber": 3,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "Ncode-93": {
+    "home": "https://github.com/Ncode-93",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/91209834?s=80&v=4",
+    "openPRsNumber": 3,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "younusraza909": {
+    "home": "https://github.com/younusraza909",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/48213629?s=80&v=4",
+    "openPRsNumber": 2,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
   },
   "skartik-sk": {
     "home": "https://github.com/skartik-sk",
@@ -120,28 +153,6 @@
     "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
     "mergedPRsPoints": 5
   },
-  "younusraza909": {
-    "home": "https://github.com/younusraza909",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/48213629?v=4",
-    "openPRsNumber": 1,
-    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
-    "mergedPRsNumber": 0,
-    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
-    "issuesNumber": 0,
-    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
-    "mergedPRsPoints": 0
-  },
-  "Divendra2006": {
-    "home": "https://github.com/Divendra2006",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/158255309?v=4",
-    "openPRsNumber": 1,
-    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
-    "mergedPRsNumber": 0,
-    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
-    "issuesNumber": 0,
-    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
-    "mergedPRsPoints": 0
-  },
   "AdityaJadhav9423": {
     "home": "https://github.com/AdityaJadhav9423",
     "avatarUrl": "https://avatars.githubusercontent.com/u/130574249?s=80&v=4",
@@ -152,5 +163,160 @@
     "issuesNumber": 0,
     "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
     "mergedPRsPoints": 0
+  },
+  "anandanshul": {
+    "home": "https://github.com/anandanshul",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/174816013?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "arun0452": {
+    "home": "https://github.com/arun0452",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/50262822?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "asmb123": {
+    "home": "https://github.com/asmb123",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/153275203?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "codernotme": {
+    "home": "https://github.com/codernotme",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/58602508?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "Dipec001": {
+    "home": "https://github.com/Dipec001",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/119022956?v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "Fl1s": {
+    "home": "https://github.com/Fl1s",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/73421069?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "GitKimUser": {
+    "home": "https://github.com/GitKimUser",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/67673263?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "hajdam": {
+    "home": "https://github.com/hajdam",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7817364?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "praphulchandra-nitdgp": {
+    "home": "https://github.com/praphulchandra-nitdgp",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/156814647?s=80&v=4",
+    "openPRsNumber": 0,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 3,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 15
+  },
+  "rairohit17": {
+    "home": "https://github.com/rairohit17",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/154455386?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "rohitja26": {
+    "home": "https://github.com/rohitja26",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/140602914?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "Sarthak0419": {
+    "home": "https://github.com/Sarthak0419",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/180051880?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "ThanishaDewangan": {
+    "home": "https://github.com/ThanishaDewangan",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/121231114?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
+  },
+  "Anurag12133": {
+    "home": "https://github.com/Anurag12133",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/139793664?s=80&v=4",
+    "openPRsNumber": 1,
+    "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
+    "mergedPRsNumber": 0,
+    "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
+    "issuesNumber": 0,
+    "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
+    "mergedPRsPoints": 0
   }
 }
+

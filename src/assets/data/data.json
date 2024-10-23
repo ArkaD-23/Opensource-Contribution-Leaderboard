@@ -24,13 +24,13 @@
   "Divendra2006": {
     "home": "https://github.com/Divendra2006",
     "avatarUrl": "https://avatars.githubusercontent.com/u/158255309?v=4",
-    "openPRsNumber": 3,
+    "openPRsNumber": 2,
     "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
-    "mergedPRsNumber": 0,
+    "mergedPRsNumber": 1,
     "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
     "issuesNumber": 0,
     "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
-    "mergedPRsPoints": 0
+    "mergedPRsPoints": 5
   },
   "Ncode-93": {
     "home": "https://github.com/Ncode-93",

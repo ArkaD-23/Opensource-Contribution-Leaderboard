@@ -222,13 +222,13 @@
   "Fl1s": {
     "home": "https://github.com/Fl1s",
     "avatarUrl": "https://avatars.githubusercontent.com/u/73421069?s=80&v=4",
-    "openPRsNumber": 1,
+    "openPRsNumber": 0,
     "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
-    "mergedPRsNumber": 0,
+    "mergedPRsNumber": 1,
     "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
     "issuesNumber": 0,
     "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
-    "mergedPRsPoints": 0
+    "mergedPRsPoints": 5
   },
   "GitKimUser": {
     "home": "https://github.com/GitKimUser",
@@ -257,11 +257,11 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/156814647?s=80&v=4",
     "openPRsNumber": 0,
     "openPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:open+created:>=2024-09-03+-label:chore",
-    "mergedPRsNumber": 3,
+    "mergedPRsNumber": 4,
     "mergedPRsLink": "https://github.com/search?q=type:pr+author:BennyPerumalla+is:merged+created:>=2024-09-03+-label:chore",
     "issuesNumber": 0,
     "issuesLink": "https://github.com/search?q=type:issue+author:BennyPerumalla+created:>=2024-09-03+-label:chore",
-    "mergedPRsPoints": 15
+    "mergedPRsPoints": 20
   },
   "rairohit17": {
     "home": "https://github.com/rairohit17",
